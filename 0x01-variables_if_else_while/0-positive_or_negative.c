@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdlib.h>
 /* more headers goes there */
-
+/*Positive anything is better than negative nothing */
 /* betty style doc for function main goes there */
 int main(void)
 {
@@ -20,7 +20,7 @@ int main(void)
 	}
 	else if (n < 0)
 	{
-		printf("%d is negative \n", n);
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
