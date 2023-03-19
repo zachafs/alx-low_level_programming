@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-/* more headers goes there */
-/*Positive anything is better than negative nothing */
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 /* betty style doc for function main goes there */
 int main(void)
 {
