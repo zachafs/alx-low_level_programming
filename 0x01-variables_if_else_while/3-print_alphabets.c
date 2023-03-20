@@ -1,25 +1,25 @@
 #include <stdio.h>
 /**
- * main - Prints the lowercase and Upercase alphabet using a while loop and putchar
+ * main - alphaBET
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-char c = 'a';
-c = 'a' - 'A';
+	char c = 'a';
+	char C = 'A';
 
-while (c <= 'z')
-{
-        putchar(c);
-        c++;
-}
-while (c <= 'A')
-{
-	putchar(c);
+	while (c <= 'z')
+	{
+		putchar(c);
 		c++;
-}
-putchar('\n');
+	}
+	while (C <= 'Z')
+	{
+		putchar(C);
+		C++;
+	}
+	putchar('\n');
 return (0);
 }
