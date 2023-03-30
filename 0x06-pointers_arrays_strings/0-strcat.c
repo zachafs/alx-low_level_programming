@@ -4,7 +4,7 @@
  * @dest: input value
  * @src: input value
  */
-char *_strcat(char *dest, char *src)
+char *strcat(char *dest, char *src)
 {
 	int i;
 	int j;
