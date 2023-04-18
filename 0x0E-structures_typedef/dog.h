@@ -8,7 +8,7 @@
  * Description: structure called "dog" that stores a dog's profile.
  */
 
-struct dog
+typedef struct dog
 {
 	char *name;
 	float age;
